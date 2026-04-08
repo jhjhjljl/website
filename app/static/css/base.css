@@ -28,8 +28,6 @@
 
 html {
 	font-family: "Courier Prime";
-	background-color: black;
-	color: white;
-	max-width: 70rem;
+	max-width: 60rem;
 	margin-inline: auto;
 }
