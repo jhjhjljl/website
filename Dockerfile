@@ -1,4 +1,4 @@
-FROM python:3.13-slim AS build
+FROM python:3.14-alpine
 
 WORKDIR /app
 
@@ -8,4 +8,4 @@ RUN pip3 install --no-cache-dir --requirement requirements.txt
 
 COPY ./app /app/
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80", "--no-access-log" "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
