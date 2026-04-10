@@ -13,3 +13,11 @@ async def _get(request: Request):
 		request=request,
 		name="index.html"
 	)
+
+
+@router.get("/imgs", response_class=HTMLResponse)
+async def _get(request: Request):
+	return templates.TemplateResponse(
+		request=request,
+		name="imgs.html"
+	)
