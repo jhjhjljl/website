@@ -1,5 +1,31 @@
 {% extends "layouts/base.html" %}
 {% block main %}
-<h1>hello world</h1>
-<p>im justin</p>
+<code>justin@debian:~$ whoami</code>
+<pre><code>[identity]
+name: justin lee
+job: system architect at glasslewis
+location: toronto</code></pre>
+
+<code>justin@debian:~$ ls</code>
+<nav>
+	<ul>
+		<li>
+			<a href="/">/home</a>
+		</li>
+		<li>
+			<a href="/img">/imgs</a>
+		</li>
+		<li>
+			<a href="/logs">/logs</a>
+		</li>
+		<li>
+			<a href="/etc">/etc</a>
+		</li>
+		<li>
+			<a href="/pubkey">/pubkey</a>
+		</li>
+	</ul>
+</nav>
+<code>justin@debian:~$ cat yap.txt</code>
+<p>i do not like people who replies on tool too much without</p>
 {% endblock %}
