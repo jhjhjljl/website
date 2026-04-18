@@ -4,29 +4,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/static/css/base.css">
-	{% block head %}{% endblock %}
-	<title>{% block title %}{% endblock %} - Justin Lee</title>
-	</title>
+	<title>Justin Lee</title>
 </head>
 <body>
 	<header>
-		<code>justin@debian:~$ ls</code>
 		<nav>
-			<ul style="list-style-type: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
+			<code>
+				<span>justin@website:~$</span>
+				<kbd>ls</kbd>
+			</code>
+			<ul>
 				<li>
 					<a href="/">/home</a>
-				</li>
-				<li>
-					<a href="/imgs">/imgs</a>
 				</li>
 				<li>
 					<a href="/logs">/logs</a>
 				</li>
 				<li>
-					<a href="/etc">/etc</a>
+					<a href="/imgs">/imgs</a>
 				</li>
 				<li>
-					<a href="/pubkey">/pubkey</a>
+					<a href="/etc">/etc</a>
 				</li>
 			</ul>
 		</nav>
@@ -35,7 +33,5 @@
 		{% block main %}
 		{% endblock %}
 	</main>
-	<footer>
-	</footer>
 </body>
 </html>

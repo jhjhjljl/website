@@ -20,19 +20,26 @@
 }
 
 @font-face {
-	font-family: "Courier Prime";
+	font-family: "Menlo";
 	src: url("/static/fonts/Menlo-Bold-Italic.ttf");
 	font-weight: 700;
 	font-style: italic;
 }
 
-html, body {
-	font-family: "Menlo";
-	max-width: 50rem;
+body {
 	margin-inline: auto;
-	font-size: 0.9rem;
+	max-width: 50rem;
 }
 
-code {
+body, kbd, code {
 	font-family: "Menlo";
+	font-size: 0.8rem;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1rem;
 }
