@@ -58,7 +58,7 @@ async def log(request: Request, slug: str):
 		"title": post["title"],
 		"date": dt.strftime("%Y-%m-%d"),
 		"datetime": dt.isoformat(),
-		"content": md.markdown(post.content),
+		"content": md.markdown(post.content, extensions=["fenced_code"]),
 	})
 
 
