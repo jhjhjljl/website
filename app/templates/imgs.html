@@ -5,6 +5,14 @@
 		<samp>justin@website:~$</samp>
 		<kbd>ls imgs/</kbd>
 	</code>
-	<p>[wip]</p>
+	<ul>
+		{% for photo in photos %}
+		<li>
+			<a href="/imgs/{{ photo.slug }}">
+				<img src="/static/imgs/thumbs/{{ photo.slug }}.jpg" alt="{{ photo.title }}">
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
 </section>
 {% endblock %}
