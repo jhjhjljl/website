@@ -122,6 +122,35 @@ section > ul > li:not(:has(a)) {
 	color: #555;
 }
 
+/* imgs grid */
+
+section > ul:has(img) {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.5rem;
+	margin-inline-start: 0;
+}
+
+section > ul:has(img) > li > a {
+	display: block;
+	text-decoration: none;
+}
+
+section > ul:has(img) > li img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	object-fit: cover;
+}
+
+/* img entry */
+
+article > img {
+	display: block;
+	width: 100%;
+	margin-block-end: 1rem;
+}
+
 /* log entry */
 
 article {

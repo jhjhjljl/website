@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+{% block main %}
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>cat imgs/{{ photo.slug }}</kbd>
+	</code>
+	<article>
+		<img src="/static/imgs/{{ photo.slug }}.jpg" alt="{{ photo.title }}">
+		<dl>
+			<div>
+				<dt>date</dt>
+				<dd>{{ photo.date }}</dd>
+			</div>
+			<div>
+				<dt>location</dt>
+				<dd>{{ photo.location }}</dd>
+			</div>
+		</dl>
+		<p>{{ photo.caption }}</p>
+	</article>
+</section>
+{% endblock %}

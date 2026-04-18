@@ -3,6 +3,7 @@ from pathlib import Path
 
 import frontmatter
 import markdown as md
+import yaml
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import HTMLResponse
 
@@ -20,6 +21,7 @@ def _to_datetime(value) -> datetime:
 router = APIRouter(prefix="")
 
 LOGS_DIR = Path(__file__).parent.parent / "content" / "logs"
+IMGS_INDEX = Path(__file__).parent.parent / "content" / "imgs" / "index.yaml"
 
 
 @router.get("/", response_class=HTMLResponse)
@@ -62,4 +64,14 @@ async def log(request: Request, slug: str):
 
 @router.get("/imgs", response_class=HTMLResponse)
 async def imgs(request: Request):
-	return templates.TemplateResponse(request=request, name="imgs.html")
+	photos = yaml.safe_load(IMGS_INDEX.read_text())
+	return templates.TemplateResponse(request=request, name="imgs.html", context={"photos": photos})
+
+
+@router.get("/imgs/{slug}", response_class=HTMLResponse)
+async def img(request: Request, slug: str):
+	photos = yaml.safe_load(IMGS_INDEX.read_text())
+	photo = next((p for p in photos if p["slug"] == slug), None)
+	if not photo:
+		raise HTTPException(status_code=404)
+	return templates.TemplateResponse(request=request, name="img.html", context={"photo": photo})
