@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+{% block main %}
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>ls logs/</kbd>
+	</code>
+	<ul>
+		{% for entry in entries %}
+		<li>
+			<a href="/logs/{{ entry.slug }}">
+				<time datetime="{{ entry.datetime }}">{{ entry.date }}</time>
+				{{ entry.title }}
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+{% endblock %}

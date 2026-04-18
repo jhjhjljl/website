@@ -1,7 +1,73 @@
 {% extends "layouts/base.html" %}
 {% block main %}
-<code>
-	<span>justin@website:~$</span>
-	<kbd>whoami</kbd>
-</code>
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>whoami</kbd>
+	</code>
+	<dl>
+		<div>
+			<dt>name</dt>
+			<dd>Justin Lee</dd>
+		</div>
+		<div>
+			<dt>role</dt>
+			<dd>software engineer at glass lewis</dd>
+		</div>
+		<div>
+			<dt>location</dt>
+			<dd>toronto, ca</dd>
+		</div>
+		<div>
+			<dt>links</dt>
+			<dd><a href="https://github.com/jhjhjljl">github</a></dd>
+		</div>
+	</dl>
+	<p>obsessively detail-oriented. i care about foundations — not just in code, but in everything. before the framework, learn the language. before the tool, understand the craft.</p>
+</section>
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>ls projects/</kbd>
+	</code>
+	<dl>
+		<div>
+			<dt><a href="https://github.com/jhjhjljl/howlcss">howl.css/</a></dt>
+			<dd>classless css library named after my dog</dd>
+		</div>
+		<div>
+			<dt>howl-stop/</dt>
+			<dd>computer vision alarm that yells at my dog when he chews on his pee pad [wip]</dd>
+		</div>
+		<div>
+			<dt>digimon/</dt>
+			<dd>interactive digimon evolution explorer [wip]</dd>
+		</div>
+		<div>
+			<dt>exif-explorer/</dt>
+			<dd>terminal-style photo exif viewer [wip]</dd>
+		</div>
+		<div>
+			<dt>chip-8/</dt>
+			<dd>chip-8 emulator in the browser [wip]</dd>
+		</div>
+		<div>
+			<dt>conway/</dt>
+			<dd>conway's game of life [wip]</dd>
+		</div>
+	</dl>
+</section>
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>cat now.txt</kbd>
+	</code>
+	<ul>
+		<li>trying to actually enjoy life and not overthink everything</li>
+		<li>got a puppy named howl last year — genuinely changed things for me</li>
+		<li>watching every digimon series in order. the nostalgia is hitting hard</li>
+		<li>gaming whenever i can</li>
+		<li>leetcoding until my brain explodes — mostly just puts me to sleep</li>
+	</ul>
+</section>
 {% endblock %}

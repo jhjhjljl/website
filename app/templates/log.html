@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %}
+{% block main %}
+<section>
+	<code>
+		<samp>justin@website:~$</samp>
+		<kbd>cat logs/{{ slug }}</kbd>
+	</code>
+	<article>
+		<header>
+			<time datetime="{{ datetime }}">{{ date }}</time>
+			<h1>{{ title }}</h1>
+		</header>
+		{{ content | safe }}
+	</article>
+</section>
+{% endblock %}
