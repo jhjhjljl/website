@@ -44,7 +44,7 @@ a:hover {
 
 body, code, kbd, samp {
 	font-family: "Menlo";
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 body > header {
@@ -168,7 +168,7 @@ article > header > time {
 }
 
 h1 {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: 400;
 	margin: 0;
 }
@@ -187,5 +187,5 @@ article pre {
 
 article pre > code {
 	font-family: "Menlo";
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
