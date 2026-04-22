@@ -7,4 +7,4 @@ was supposed to go 3 days but gave in at 2. broke it tonight with one meal — b
 
 aitaiker is pretty underrated honestly. not many people talk about it but the food is genuinely amazing. braised beef especially.
 
-one meal, done. back on it tomorrow. going to keep rolling until i hit my goal.
+one meal, done. back on it now. going to keep rolling until i hit my goal.
