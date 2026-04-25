@@ -1,28 +1,84 @@
 @font-face {
-	font-family: "Menlo";
-	src: url("/static/fonts/Menlo-Regular.ttf");
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Light.otf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-LightItalic.otf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Regular.otf");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Menlo";
-	src: url("/static/fonts/Menlo-Italic.ttf");
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-RegularItalic.otf");
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: "Menlo";
-	src: url("/static/fonts/Menlo-Bold.ttf");
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Medium.otf");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-MediumItalic.otf");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Semibold.otf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-SemiboldItalic.otf");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Bold.otf");
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Menlo";
-	src: url("/static/fonts/Menlo-Bold-Italic.ttf");
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-BoldItalic.otf");
 	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-Heavy.otf");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Mono";
+	src: url("/static/fonts/SF-Mono-HeavyItalic.otf");
+	font-weight: 800;
 	font-style: italic;
 }
 
@@ -43,7 +99,7 @@ a:hover {
 }
 
 body, code, kbd, samp {
-	font-family: "Menlo";
+	font-family: "SF Mono";
 	font-size: 1rem;
 }
 
@@ -186,6 +242,6 @@ article pre {
 }
 
 article pre > code {
-	font-family: "Menlo";
+	font-family: "SF Mono";
 	font-size: 1rem;
 }
