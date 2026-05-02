@@ -1,6 +1,6 @@
 ---
 title: agumon and patamon
-date: 2026-04-30 22:00
+date: 2026-05-02 22:00
 ---
 
 been rewatching digimon adventure (1999) and a thought came to mind — why does agumon always evolve first, and patamon always evolve last?
