@@ -1,5 +1,5 @@
 ---
-title: why agumon evolves first and patamon evolves last
+title: agumon and patamon
 date: 2026-04-30 22:00
 ---
 
