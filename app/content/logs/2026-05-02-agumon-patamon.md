@@ -13,4 +13,4 @@ patamon carries the crest of hope. and hope isn't something that shows up at the
 
 what i also found interesting is what happens after. when devimon is defeated, patamon returns to an egg. it looks like hope disappeared. but that's the point — hope doesn't die. it just waits. ready to come back whenever it's needed again.
 
-the show is way deeper than i remembered, or maybe i'm just being too fucking cringy.
+the show is way deeper than i remembered watching as a kid. or, i'm just being too fucking cringy.
