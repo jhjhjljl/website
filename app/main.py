@@ -12,3 +12,4 @@ app.mount("/static", StaticFiles(directory="static"))
 
 
 app.include_router(pages.router)
+

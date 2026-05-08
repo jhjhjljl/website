@@ -80,3 +80,4 @@ async def img(request: Request, slug: str):
 	if not photo:
 		raise HTTPException(status_code=404)
 	return templates.TemplateResponse(request=request, name="img.html", context={"photo": photo})
+
