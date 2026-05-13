@@ -1,0 +1,1 @@
+The source code of my personal website. Mostly random thoughts and logs. Python (fastapi) for the backend. Docker for local development. Deployed on a DigitalOcean droplet — small enough that everything on the server is installed manually rather than containerized.
