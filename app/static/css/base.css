@@ -135,7 +135,7 @@ dl > div {
 }
 
 dt {
-	width: 6rem;
+	width: 8rem;
 	flex-shrink: 0;
 	color: #888;
 }
