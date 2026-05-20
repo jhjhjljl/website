@@ -73,6 +73,11 @@ async def etc(request: Request):
     return templates.TemplateResponse(request=request, name="etc.html")
 
 
+@router.get("/books", response_class=HTMLResponse)
+async def books(request: Request):
+    return templates.TemplateResponse(request=request, name="books.html")
+
+
 @router.get("/imgs/{slug}", response_class=HTMLResponse)
 async def img(request: Request, slug: str):
     photos = yaml.safe_load(IMGS_INDEX.read_text())
